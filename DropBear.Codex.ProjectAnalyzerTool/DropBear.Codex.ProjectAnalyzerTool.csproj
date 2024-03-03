@@ -15,9 +15,8 @@
         <RepositoryUrl>https://github.com/tkuchel/DropBear.Codex.ProjectAnalyzerTool</RepositoryUrl>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <RepositoryType>Git</RepositoryType>
-        <PackageType>DotnetTool</PackageType>
-        <IsPackable>true</IsPackable>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <OutputType>Exe</OutputType>
     </PropertyGroup>
 
     <ItemGroup>
@@ -31,7 +30,12 @@
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
       <PackageReference Include="ZLogger" Version="2.4.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Commands\SubCommands\" />
     </ItemGroup>
 
 </Project>
