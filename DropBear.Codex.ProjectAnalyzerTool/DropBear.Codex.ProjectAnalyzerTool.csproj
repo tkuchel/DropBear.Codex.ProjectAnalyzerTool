@@ -25,7 +25,7 @@
 
     <ItemGroup>
       <PackageReference Include="ConsoleAppFramework" Version="4.2.4" />
-      <PackageReference Include="DropBear.Codex.Core" Version="2024.3.1" />
+      <PackageReference Include="DropBear.Codex.Core" Version="2024.3.11" />
       <PackageReference Include="Meziantou.DotNet.CodingStandard" Version="1.0.119">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
